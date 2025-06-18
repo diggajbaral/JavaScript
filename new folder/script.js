@@ -1,7 +1,10 @@
-// Reverse the String ;
+// Check Palindrome or not ;
 
-const str = 'hello'
+const car = 'toyota';
+const rev = car.split('').reverse().join('');
 
-const rev = str.split('').reverse().join('')
-
-console.log(rev);
+if (car === rev) {
+    console.log(true)
+} else {
+    console.log(false)
+}
